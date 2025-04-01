@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="ObjetosSencillos" level="project" />
+    <orderEntry type="library" name="MarioLib" level="project" />
+    <orderEntry type="library" name="swing-layout-1.0.4" level="project" />
+    <orderEntry type="library" name="ConsolaDAW (1)" level="project" />
   </component>
 </module>

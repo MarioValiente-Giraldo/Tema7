@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MarioLib">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Mario Bros/MarioLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
+
 import bpc.daw.objetos.DepositoAgua;
 
 public class Ejercicio6 {
@@ -42,6 +42,21 @@ public class Ejercicio6 {
         listaAgua.removeIf(deposito -> deposito.getCantidadActual()<250);
         System.out.println(listaAgua);
         //f
+        // f
+        List<String> listaDiasMinusculas = new ArrayList<>(List.of("lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"));
+        System.out.println(listaDiasMinusculas);
+
+        listaDiasMinusculas.removeIf(dia -> {
+            int suma = 0;
+            for (char x : dia.toCharArray()) {
+                suma += x;
+            }
+            double mediaAscii = (double) suma / dia.length();
+            return mediaAscii > 110;
+        });
+
+        System.out.println(listaDiasMinusculas);
+
 
 
     }
