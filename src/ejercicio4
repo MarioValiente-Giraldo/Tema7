@@ -1,0 +1,14 @@
+Ejercicio 4: ¿Cuáles de las siguientes clases son inmutables?
+
+a) String -> Inmutable
+b) LocalDate -> Inmutable
+c) DepositoAgua -> Mutable
+d) ArrayList<String> -> Mutable
+i) Los records -> Inmutable
+j) StringBuilder -> Mutable
+k) Los arrays -> Inmutable
+l) MarcadorBaloncesto -> Mutable
+e) Graphics -> Mutable
+f) File -> Mutable
+g) HashMap -> Mutable
+h) BufferedImage -> Mutable
