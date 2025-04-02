@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
 import bpc.daw.objetos.DepositoAgua;
 
 public class Ejercicio6 {
