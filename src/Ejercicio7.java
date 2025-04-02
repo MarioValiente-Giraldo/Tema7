@@ -1,8 +1,8 @@
-import bpc.daw.consola.CapaCanvas;
 import bpc.daw.consola.Consola;
 import bpc.daw.consola.Teclado;
 import bpc.daw.mario.Mario;
 import bpc.daw.objetos.DepositoAgua;
+import bpc.daw.consola.CapaCanvas;
 
 import java.awt.*;
 import java.io.File;

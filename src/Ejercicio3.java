@@ -116,7 +116,7 @@ public class Ejercicio3 {
             return Files.isDirectory(Paths.get(x)) ? TipoElemento.CARPETA : TipoElemento.ARCHIVO;
         };
         BiFunction<Integer, Integer, Integer> s = (Integer x, Integer y) -> x + y;
-        ;
+
         BiConsumer<List<String>, List<String>> t = (List<String> origen, List<String> destino) -> {
             for (String x : origen) {
                 destino.add(x);

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="MarioLib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../LibreriasDeObjetos/Mario Bros/MarioLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LibreriasDeObjetos/Mario Bros/swing-layout-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
