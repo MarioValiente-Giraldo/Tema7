@@ -3,6 +3,7 @@ package Ejercicio12;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class main {
     public static void main(String[] args) {
@@ -151,6 +152,19 @@ public class main {
                 .forEach(z -> System.out.println(z.nombre()));
 
         //r
+        System.out.println("--------------------------------------------------------------------------------");
+
+        //s
+        proyectos.stream()
+                .forEach(x ->{
+                    String nombreLenguajes = x.equipo().stream()
+                            .flatMap(y->y.lenguajes().stream())
+                                    .map(z->z.nombre())
+                                    .collect(Collectors.joining(";"));
+                    System.out.println(x.nombre()+ " > "+nombreLenguajes);
+
+                });
+
 
 
 
