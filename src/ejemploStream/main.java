@@ -11,7 +11,7 @@ public class main {
                 new Alumno("Juan","Granada",16,List.of("Programacion","Base de datos")),
                 new Alumno("Gregorio","Armilla",18,List.of("Programacion","Entornos","Base de datos")),
                 new Alumno("Francisco Javier","Cortes y Graena",19,List.of("Porgramacion","Sistemas")),
-                new Alumno("Roberto","Valderrubio",18,List.of("Porgramacion","Entornosw")),
+                new Alumno("Roberto","Valderrubio",18,List.of("Programacion","Entornosw")),
                 new Alumno("Adam","Granada",17,List.of("Programacion","Base de datos")),
                 new Alumno("Esther","Granada",18,List.of("Programacion","Entornos","Base de datos"))
 
